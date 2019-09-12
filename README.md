@@ -2,10 +2,10 @@
 Set of scripts for annotating chIP-seq results
 
 Set of R / Python scripts for annotating ChIP-seq (from MACS2) results.
-The R script depends on the following libraries from Bioconductor:
-  #BiocInstaller::biocLite("TxDb.Mmusculus.UCSC.mm10.knownGene")
-  #BiocInstaller::biocLite("TxDb.Hsapiens.UCSC.hg38.knownGene")
-  #BiocInstaller::biocLite("EnsDb.Hsapiens.v75")
+The R script depends on the following libraries from Bioconductor:<br>
+  #BiocInstaller::biocLite("TxDb.Mmusculus.UCSC.mm10.knownGene")<br>
+  #BiocInstaller::biocLite("TxDb.Hsapiens.UCSC.hg38.knownGene")<br>
+  #BiocInstaller::biocLite("EnsDb.Hsapiens.v75")<br>
   #BiocInstaller::biocLite("EnsDb.Mmusculus.v79")
   
 Currently the script works for Human (hg38) and Mouse (mm10). Other genomes can be added to the script as needed.
