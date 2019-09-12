@@ -9,6 +9,9 @@ library('clusterProfiler')
 library('ChIPpeakAnno')
 
 organism="Human" ## Change this if you want Mouse -- organism="Mouse"
+
+## If you need any other organism than Human or Mouse (or different versions -- create the necessary modules below.
+
 if(organism == "Mouse")
 {
   library("EnsDb.Mmusculus.v79")
